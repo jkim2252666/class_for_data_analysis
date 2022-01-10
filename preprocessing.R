@@ -79,6 +79,7 @@ player<-c("ZaB-A","XaB-B","SaB-C","TaB-D","UaB-E","KaB-F")
 AVG<-c(0.315,0.257,0.266,0.198,0.227,0.305)
 e<-data.frame(player,AVG)
 
+## string management: See how player's names change.
 gsub("-","",e$player)
 gsub("*\\-","",e$player)
 gsub(".\\-","",e$player)
